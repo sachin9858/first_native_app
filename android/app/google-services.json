@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "644811341648",
+    "project_id": "letx-16570",
+    "storage_bucket": "letx-16570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644811341648:android:4e891fc8ace2f2ae773655",
+        "android_client_info": {
+          "package_name": "com.first_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-3uGJF-mSBRVTTBp3PVdVBedGU1GjjKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
