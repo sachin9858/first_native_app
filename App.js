@@ -6,6 +6,11 @@ import Register from './src/Register'
 import TickTackToe from './src/TickTackToe'
 import Home from './src/Home'
 import Signup from './src/Signup'
+import LoginScreen from './src/LoginScreen'
+// import Practice from './src/Practice'
+import Profile from './src/Profile'
+import History from './src/New folder/History'
+import Practice from './src/New folder/Practice'
 
 const App = () => {
   const [show,setShow]=useState(false);
@@ -23,10 +28,16 @@ const App = () => {
       <ScrollView>
       <ActivityIndicator size='50' color='red' animating={show}/>
       <Button title='show loder' onPress={displayloder}/>
-        <Home/>
+        {/* <Home/> */}
         <Login/>
-        <Register/>
-        <TickTackToe/>
+        {/* <LoginScreen/> */}
+        {/* <Signup/> */}
+        {/* <Practice/> */}
+        <Practice/>
+        {/* <Register/> */}
+        {/* <Profile/> */}
+        {/* <TickTackToe/> */}
+
       </ScrollView>
     </View>
   )
